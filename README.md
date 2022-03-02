@@ -2,6 +2,7 @@
 > [JavaScript30](javascript30.com) by Wes Bos
 
 Day 01 JS Drum Kit
+
 Day 02 CSS + JS Clock
 Day 03 
 Day 04 
