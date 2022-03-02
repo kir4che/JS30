@@ -1,2 +1,2 @@
 # JS30
-30 Day Vanilla JS Challenge
+學習 Wes Bos - [JavaScript 30 Days](javascript30.com)
