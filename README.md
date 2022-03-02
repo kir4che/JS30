@@ -1,11 +1,11 @@
 # JS30
 > [JavaScript30](javascript30.com) by Wes Bos
 
-Day 01 [JS Drum Kit]()  
-Day 02 [CSS + JS Clock]()  
-Day 03 [CSS Variables and JS]()  
-Day 04 [Array Cardio Day 1]()  
-Day 05 [Flex Panels Image Gallery]()  
+Day 01　[JS Drum Kit]()  
+Day 02　[CSS + JS Clock]()  
+Day 03　[CSS Variables and JS]()  
+Day 04　[Array Cardio Day 1]()  
+Day 05　[Flex Panels Image Gallery]()  
 Day 06 [Ajax Type Ahead]()  
 Day 07 [Array Cardio Day 2]()  
 Day 08 [Fun with HTML5 Canvas]()  
