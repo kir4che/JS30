@@ -1,9 +1,8 @@
 body {
     background: #ffd2e5;
-    height: 100%;
 }
 
-.date {
+.datetime {
     margin-top: 38px;
     color: white;
     font-size: 2rem;
@@ -61,7 +60,7 @@ body {
     margin-left: 11%;
 }
 
-.second-hand {
+.sec-hand {
     height: 4px;
     background: #ffb7cd;
 }
