@@ -1,5 +1,5 @@
 # JS30
-> [JavaScript30](javascript30.com) by Wes Bos
+> Thank Wes Bos - [JavaScript30](javascript30.com)
 
 ## view all demo：[My JS30](#)
 
