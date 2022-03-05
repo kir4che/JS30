@@ -14,14 +14,14 @@ var hour = now.getHours();
 var min = now.getMinutes();
 var sec = now.getSeconds();
 
-var hourDeg = ((hour/12)*360) + ((min/60)*6) + 90;
-var minDeg = ((min/60)*360) + ((sec/60)*6) + 90;
-var secDeg = ((sec/60)*360) + 90;
+var hourDeg = (hour/12)*360 + (min/60)*30 + 90;
+var minDeg = (min/60)*360 + (sec/60)*6 + 90;
+var secDeg = (sec/60)*360 + 90;
 
 function setClock() {
-    hourDeg += 360/(60*60*12);
+    hourDeg += (360/12)/60/60;
     hourHand.style.transform = `rotate(${hourDeg}deg)`;
-    minDeg += 360/(60*60);
+    minDeg += (360/60)/60;
     minHand.style.transform = `rotate(${minDeg}deg)`;
     secDeg += 360/60;
     secHand.style.transform = `rotate(${secDeg}deg)`;
