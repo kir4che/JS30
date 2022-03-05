@@ -5,7 +5,7 @@
 
 Day 01 [JS Drum Kit](#)  
 Day 02 [CSS + JS Clock](#)  
-Day 03 [CSS Variables and JS](#)  
+Day 03 [CSS Variables](#)  
 Day 04 [Array Cardio Day 1](#)  
 Day 05 [Flex Panels Image Gallery](#)  
 Day 06 [Ajax Type Ahead](#)  
