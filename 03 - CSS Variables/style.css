@@ -1,0 +1,31 @@
+:root {
+    --base: #ffc600;
+    --spacing: 0px;
+    --blur: 0px;
+}
+
+body {
+    background: #2f363b;
+    color: white;
+    font-weight: 100;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.hl {
+    color: var(--base);
+}
+
+.controls {
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
