@@ -34,13 +34,13 @@ body {
 }
 
 .center {
-    line-height: 405px;
+    line-height: 378px;
     color: white;
     font-size: 100px;
     text-align: center;
     vertical-align: middle;
-    
 }
+
 .hand {
     width: 50%;
     height: 8px;
@@ -52,7 +52,6 @@ body {
     transform: rotate(90deg);
     transition: all 0.5s;
     transition-timing-function: cubic-bezier(0.1, 2.0, 0.58, 1);
-    
 }
 
 .hour-hand {
