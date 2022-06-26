@@ -3,7 +3,7 @@
 
 ## view all demo：[My JS30](#)
 
-Day 01 [JS Drum Kit](#)  
+Day 01 [JS Drum Kit](01 - JS Drum Kit)  
 Day 02 [CSS + JS Clock](#)  
 Day 03 [CSS Variables](#)  
 Day 04 [Array Cardio Day1](#)  
