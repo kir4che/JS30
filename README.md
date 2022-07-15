@@ -9,13 +9,13 @@ Day 02 [CSS + JS Clock](https://github.com/kir4che/JS30/tree/main/02%20-%20CSS%2
 
 Day 03 [CSS Variables](https://github.com/kir4che/JS30/tree/main/03%20-%20CSS%20Variables)
 
-Day 04 [Array Cardio Day1](#)
+Day 04 [Array Cardio I](#)
 
 Day 05 [Flex Panels](#)
 
 Day 06 [Ajax Type Ahead](#)
 
-Day 07 [Array Cardio Day2](#)
+Day 07 [Array Cardio II](#)
 
 Day 08 [HTML5 Canvas](#)
 
