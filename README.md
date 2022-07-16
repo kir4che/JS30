@@ -39,7 +39,7 @@ Day 18 [Tally String Times with Reduce](#)
 
 Day 19 [Unreal Webcam Fun](#)
 
-Day 20 [Native Speech Recognition](#
+Day 20 [Native Speech Recognition](#)
 
 Day 21 [Speedometer and Compass](#)
 
