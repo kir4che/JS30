@@ -5,18 +5,20 @@
 以 JS 使鍵盤按下後播放出對應按鍵的音效
 
 
-
-## 重點
+## JS 重點
 
 ### 事件監聽 addEventListener
 
-* **偵測按下鍵盤事件**
-  * `window.addEventListener("keydown", (e) => {...});`
-  * 按下哪一鍵－取得 keyCode（[keyCode 查詢](https://keycode.info/)）
+#### 按下鍵盤 keydown
 
-* **播放聲音**
-  * `audio.currentTime = 0`：回到音訊開頭
-  * `audio.play()`：播放
+按下哪一鍵：取得 keyCode（[keyCode 查詢](https://keycode.info/)）
+
+#### 轉場 transitionend
+
+於 CSS transition 完成後觸發
+
+* transition 完成前移除 transition 則不會被觸發
+* 若 transition 完成前設置 `display: none` 也不會被觸發
 
 ### data-*
 
@@ -25,36 +27,58 @@
 * `element.dataset.keyname`
 * `element.dataset[keyname]`
 
-### transitionend
+### HTMLmediaElement(audio)
 
-發生於 CSS transition 完成後
+* `audio.currentTime = 0`：回到音訊開頭
+* `audio.play()`：播放
 
-* **transition 轉場**
+### element.classList
 
-  `transition: prop duratioin timing-func delay;`
+代表該元素所擁有之**類別屬性**的即時更新集 ➪ 取得元素 Class
 
-* **transitionEvent（唯讀）**
+* `.add(String)` 新增
 
-  `event.propertyName`
+* `.remove(String)` 移除
 
-### 類別屬性
+* `.toggle(String)` 切換
 
-`element.classList`
+  i.e., if class exists then remove it and return false, if not, then add it and return true.
 
-* `.add()`：新增
-* `.remove()`：移除
-* `.toggle()`：切換
+### forEach
 
-### Target
+`arr.forEach(function)`
 
-* `event.currentTarget`：當前事件對象
+```js
+const array1 = ['a', 'b', 'c'];
 
-* `event.target`：觸發事件的元素
+array1.forEach(element => console.log(element));
+// "a"
+// "b"
+// "c"
+\\\\\\\\\\\\\
+```
+
+### Event
+
+* `event.currentTarget` **當前**事件的物件
+
+* `event.target` **觸發**事件的元素
+
+
+
+## CSS 重點
+
+### transition
+
+定義組件在兩個狀態之間切換的**轉場**效果
+
+`transition: prop duratioin timing-func delay;`
 
 ### transform
 
-* `translate(x,y)`：位移
-* `scale(x,y)`：縮放
-* `skew(deg,deg)`：傾斜
-* `rotate(deg)`：轉軸
-* `matrix(a,b,c,d,e,f)`：變形矩陣
+* `translate(x,y)` 位移
+* `scale(x,y)` 縮放
+* `skew(deg,deg)` 傾斜
+* `rotate(deg)` 轉軸
+* `matrix(a,b,c,d,e,f)` 變形矩陣
+
