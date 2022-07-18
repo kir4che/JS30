@@ -20,12 +20,12 @@
 * transition 完成前移除 transition 則不會被觸發
 * 若 transition 完成前設置 `display: none` 也不會被觸發
 
-### dataset
+### data-* attribte
 
-取出物件的 `data-*` 屬性（全域屬性），等同於 getAttribute。
+自訂的 JS 屬性名稱
 
-* `element.dataset.keyname`
-* `element.dataset[keyname]`
+* 一種全域屬性
+* `*` 自訂名稱：不可包含大寫字母
 
 ### HTMLmediaElement(audio)
 
