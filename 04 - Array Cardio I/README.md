@@ -37,19 +37,31 @@
 6. 列出 [wiki](https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris) 中所有包含 'de' 的路名
 
    ```js
-   
+   const links = Array.from(document.querySelectorAll('.mw-category a'));
+   const ans6 = links
+     .map(link => link.textContent)
+     .filter(streetName => streetName.includes('de'));
    ```
 
 7. 按 lastName 的字母順序對 people 進行排序
 
    ```js
-   
+   const ans7 = people.sort((a, b) => {
+     const [aFirst, aLast] = a.split(', ');
+     const [bFirst, bLast] = b.split(', ');
+     return aLast > bLast ? 1 : -1;
+   });
    ```
 
 8. 分別加總 data 中每個種類的數量
 
    ```js
-   
+   const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck'];
+   const ans8 = data.reduce((obj, item) => {
+     if (!obj[item]) obj[item] = 0;
+     obj[item]++;
+     return obj;
+   }, {});
    ```
 
 
