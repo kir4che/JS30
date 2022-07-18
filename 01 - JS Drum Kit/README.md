@@ -20,9 +20,9 @@
 * transition 完成前移除 transition 則不會被觸發
 * 若 transition 完成前設置 `display: none` 也不會被觸發
 
-### data-*
+### dataset
 
-自訂屬性便於 JS 取得，為全域屬性。
+取出物件的 `data-*` 屬性（全域屬性），等同於 getAttribute。
 
 * `element.dataset.keyname`
 * `element.dataset[keyname]`
