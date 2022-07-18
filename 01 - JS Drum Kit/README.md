@@ -9,16 +9,16 @@
 
 ### 事件監聽 addEventListener
 
-#### 按下鍵盤 keydown
+* #### 按下鍵盤 keydown
 
-按下哪一鍵：取得 keyCode（[keyCode 查詢](https://keycode.info/)）
+  按下哪一鍵：取得 keyCode（[keyCode 查詢](https://keycode.info/)）
 
-#### 轉場 transitionend
+* #### 轉場 transitionend
 
-於 CSS transition 完成後觸發
+  於 CSS transition 完成後觸發
 
-* transition 完成前移除 transition 則不會被觸發
-* 若 transition 完成前設置 `display: none` 也不會被觸發
+  * transition 完成前移除 transition 則不會被觸發
+  * 若 transition 完成前設置 `display: none` 也不會被觸發
 
 ### data-* attribte
 
