@@ -1,9 +1,5 @@
 # JavaScript30
 
-
-> Thank Wes Bos - [JavaScript30](https://javascript30.com)
-
-
 Day 01 [JS Drum Kit](https://github.com/kir4che/JS30/tree/main/01%20-%20JS%20Drum%20Kit)
 
 Day 02 [CSS + JS Clock](https://github.com/kir4che/JS30/tree/main/02%20-%20CSS%20%2B%20JS%20Clock)
@@ -63,3 +59,5 @@ Day 28 [Video Speed Controller UI](#)
 Day 29 [Countdown Clock](#)
 
 Day 30 [Whack A Mole Game](#)
+
+> Thank Wes Bos - [JavaScript30](https://javascript30.com)
