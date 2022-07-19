@@ -48,4 +48,4 @@ flex item 皆依照 width 或 height（視主軸 main axis）決定尺寸
 參考資料
 
 * [Flex 空間計算規則](https://www.casper.tw/css/2020/03/08/flex-size/)
-* [flex 5](
+* [flex 5](https://ithelp.ithome.com.tw/articles/10227461)
