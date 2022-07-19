@@ -1,4 +1,4 @@
-# JS30
+# JavaScript 30
 > Thank Wes Bos - [JavaScript30](https://javascript30.com)
 
 Day 01 [JS Drum Kit](https://github.com/kir4che/JS30/tree/main/01%20-%20JS%20Drum%20Kit)
