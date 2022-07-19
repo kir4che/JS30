@@ -10,7 +10,7 @@ Day 03 [CSS Variables](https://github.com/kir4che/JS30/tree/main/03%20-%20CSS%20
 
 Day 04 [Array Cardio I](https://github.com/kir4che/JS30/tree/main/04%20-%20Array%20Cardio%20I)
 
-Day 05 [Flex Panel Gallery](#)
+Day 05 [Flex Panel Gallery](https://github.com/kir4che/JavaScript30/tree/main/05%20-%20Flex%20Panel%20Gallery)
 
 Day 06 [Ajax Type Ahead](#)
 
